@@ -2,6 +2,7 @@ package flagshelper
 
 import "flag"
 
+// GetArgs stuff thing
 func GetArgs() (string, int) {
 	host := flag.String("h", "", "-h host")
 	port := flag.Int("p", 0, "-p port")
